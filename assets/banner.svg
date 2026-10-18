@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Taffy — Full-Stack Engineer and Agent Engineer" viewBox="0 0 1280 320" width="1280" height="320" fill="none">
+  <title>Taffy — Full-Stack Engineer &amp; Agent Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060A16"/>
+      <stop offset="52%" stop-color="#0E1732"/>
+      <stop offset="100%" stop-color="#1A1740"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="45%" stop-color="#A5B4FC"/>
+      <stop offset="100%" stop-color="#DDD6FE"/>
+      <animate attributeName="x1" values="-0.6;1.6;-0.6" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0.4;2.6;0.4" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#94A3B8" fill-opacity="0.14"/>
+    </pattern>
+    <linearGradient id="waveFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.50"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.50"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.50"/>
+    </linearGradient>
+    <style>
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(18px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .eyebrow { animation: fadeUp 0.8s cubic-bezier(0.22, 0.61, 0.36, 1) 0.15s both; }
+      .name    { animation: fadeUp 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) 0.35s both; }
+      .role    { animation: fadeUp 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) 0.65s both; }
+      .handle  { animation: fadeIn 1.2s ease-out 1.1s both; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#dots)"/>
+
+  <circle cx="170" cy="40" r="250" fill="url(#glowA)">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 70 40; 0 0" dur="20s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1130" cy="290" r="270" fill="url(#glowB)">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -60 -30; 0 0" dur="24s" repeatCount="indefinite"/>
+  </circle>
+
+  <path d="M-160 320 L-160 284 C -20 246, 150 318, 340 296 C 530 274, 650 306, 850 288 C 1050 270, 1190 302, 1440 274 L 1440 320 Z" fill="url(#waveFill)" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 160 0; 0 0" dur="18s" repeatCount="indefinite"/>
+  </path>
+
+  <text class="eyebrow" x="640" y="92" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="7" fill="#7DD3FC">HI, I'M</text>
+
+  <text class="name" x="640" y="186" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="94" font-weight="800" letter-spacing="1" fill="url(#nameFill)">Taffy</text>
+
+  <rect x="640" y="212" width="0" height="4" rx="2" fill="url(#accent)">
+    <animate attributeName="x" from="640" to="470" dur="1s" begin="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+    <animate attributeName="width" from="0" to="340" dur="1s" begin="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+  </rect>
+
+  <text class="role" x="640" y="252" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" fill="#CBD5E1">Full-Stack Engineer &#183; Agent Engineer</text>
+
+  <text class="handle" x="640" y="292" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#8AA0BF">@Illyasviel0913</text>
+</svg>
