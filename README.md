@@ -11,7 +11,6 @@
 <img src="https://img.shields.io/badge/NJUPT-Computer%20Science%20%26%20Technology-6366F1?style=for-the-badge" alt="NJUPT" />
 <img src="https://img.shields.io/badge/ByteDance-Intern-325AB4?style=for-the-badge&logo=bytedance&logoColor=white" alt="ByteDance" />
 <img src="https://img.shields.io/badge/Kuaishou-Intern-FF4906?style=for-the-badge&logo=kuaishou&logoColor=white" alt="Kuaishou" />
-<img src="https://komarev.com/ghpvc/?username=Illyasviel0913&style=for-the-badge&color=22D3EE&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
